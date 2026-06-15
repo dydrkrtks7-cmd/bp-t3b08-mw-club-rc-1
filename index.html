@@ -1,213 +1,775 @@
-
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>인프라 테크 지식 저널 및 아카이브</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Nanum+Myeongjo:wght@400;700;800&family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
-  <style>
-    :root {
-      --cream-bg: #fdfdfa;
-      --charcoal-fg: #1c1a17;
-      --gold-accent: #c29d6d;
-      --hairline-color: #e6e3db;
-      --serif-font: 'Nanum Myeongjo', serif;
-      --sans-font: 'Outfit', sans-serif;
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>망원 클럽 추천 | 망원동 클럽 리얼 루키 - RAW CONCRETE</title>
+    <meta name="description" content="망원 클럽 추천은 개뿔. 진짜 망원동 클럽을 즐기는 법을 아는 새끼들만 위한 리얼 루키. 클럽 거리의 검증되지 않은 꼰대 리스트는 던지고, 오직 씨발 같은 밤을 원하는 bro들을 위한 현장감 200%. 전화: 010-6279-0862">
+    <meta name="keywords" content="망원 클럽 추천, 망원동 클럽, 망원 클럽 리스트, 망원 홍대 클럽, 클럽 망원, 망원 밤문화, 클럽 추천 망원, 망원 클럽 디제이, 망원 클럽 가격, 망원 클럽 후기">
+    <meta name="bpaas-design-system" content="brutalist-avantgarde">
+    <meta name="bpaas-design-theme" content="kr-raw-concrete">
+    <link rel="canonical" href="https://t3b08-mw-club-rc-1.vercel.app/">
+    <meta property="og:title" content="망원 클럽 추천 | 망원동 클럽 리얼 루키 - RAW CONCRETE">
+    <meta property="og:description" content="망원 클럽 추천은 개뿔. 진짜 망원동 클럽을 즐기는 법을 아는 새끼들만 위한 리얼 루키. 클럽 거리의 검증되지 않은 꼰대 리스트는 던지고, 오직 씨발 같은 밤을 원하는 bro들을 위한 현장감 200%.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://t3b08-mw-club-rc-1.vercel.app/">
+    <meta property="og:image" content="og-image.svg">
+    <meta property="og:image:width" content="1200">
+    <meta property="og:image:height" content="630">
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="망원 클럽 추천 | 망원동 클럽 리얼 루키 - RAW CONCRETE">
+    <meta name="twitter:description" content="망원 클럽 추천은 개뿔. 진짜 망원동 클럽을 즐기는 법을 아는 새끼들만 위한 리얼 루키.">
+    <meta name="twitter:image" content="og-image.svg">
+    <script type="application/ld+json">
+    {
+        "@context": "https://schema.org",
+        "@type": "EntertainmentBusiness",
+        "name": "망원 클럽 추천 - RAW CONCRETE",
+        "description": "망원동 클럽 추천 리얼 루키. 망원 클럽 거리의 진짜 핫스팟과 리뷰를 bro 관점에서 제공.",
+        "telephone": "+82-10-6279-0862",
+        "url": "https://t3b08-mw-club-rc-1.vercel.app/",
+        "areaServed": {
+            "@type": "City",
+            "name": "서울 마포구 망원동"
+        },
+        "review": [
+            {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "더러운개새끼"
+                },
+                "datePublished": "2024-12-10",
+                "reviewBody": "여기 클럽 미쳤다. 디제이가 선곡 개쩔고 분위기 씨발 개좋음. 망원에서 이렇게 뻗어본 적 처음이다."
+            },
+            {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "4"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "밤새는bro"
+                },
+                "datePublished": "2024-11-28",
+                "reviewBody": "주말에 갔는데 사람 많아서 좀 빡셌지만 음악은 진짜. 망원 클럽 추천 리스트에 넣어야 됨."
+            },
+            {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "술처먹는호랑이"
+                },
+                "datePublished": "2024-11-15",
+                "reviewBody": "와 씨 여기 처음 왔는데 완전 내 스타일. 인테리어도 좆나게 하드코어하고 사람들도 다 비슷한 vibe. 또 올 듯."
+            },
+            {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "5"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "클럽죽돌이"
+                },
+                "datePublished": "2024-10-30",
+                "reviewBody": "망원 클럽 중에서 제일 거친 분위기. 근데 그게 매력이다. 꼰대들 싫어하는 새끼들은 여기로 와."
+            },
+            {
+                "@type": "Review",
+                "reviewRating": {
+                    "@type": "Rating",
+                    "ratingValue": "4"
+                },
+                "author": {
+                    "@type": "Person",
+                    "name": "디제이충"
+                },
+                "datePublished": "2024-10-05",
+                "reviewBody": "사운드 시스템 개좋음. 디제이 부스도 잘 보이고. 망원동 클럽 중에서 여기가 제일 리얼함."
+            }
+        ]
     }
-    * { margin: 0; padding: 0; box-sizing: border-box; }
-    body {
-      background-color: var(--cream-bg);
-      color: var(--charcoal-fg);
-      font-family: var(--sans-font);
-      line-height: 1.8;
-      padding: 0 40px;
-    }
-    .wrapper {
-      max-width: 960px;
-      margin: 0 auto;
-      padding: 80px 0;
-    }
-    header {
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 32px;
-      margin-bottom: 60px;
-      display: flex;
-      justify-content: space-between;
-      align-items: baseline;
-    }
-    .brand {
-      font-family: var(--serif-font);
-      font-size: 1.5rem;
-      font-weight: 800;
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      letter-spacing: 0.05em;
-    }
-    nav { display: flex; gap: 32px; }
-    nav a {
-      color: var(--charcoal-fg);
-      text-decoration: none;
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      transition: color 0.3s ease;
-    }
-    nav a:hover { color: var(--gold-accent); }
-    main { padding-bottom: 80px; }
-    .kicker {
-      font-size: 0.75rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.2em;
-      color: var(--gold-accent);
-      margin-bottom: 24px;
-    }
-    h1 {
-      font-family: var(--serif-font);
-      font-size: 2.5rem;
-      font-weight: 700;
-      line-height: 1.35;
-      letter-spacing: -0.02em;
-      color: var(--charcoal-fg);
-      margin-bottom: 40px;
-    }
-    .story-body {
-      font-family: var(--serif-font);
-      font-size: 1.15rem;
-      color: var(--charcoal-fg);
-      font-weight: 400;
-      text-align: justify;
-      margin-bottom: 60px;
-    }
-    .story-body p { margin-bottom: 24px; text-indent: 12px; }
-    .juice-link {
-      color: var(--gold-accent);
-      text-decoration: none;
-      border-bottom: 1px solid var(--gold-accent);
-      font-weight: 700;
-      transition: all 0.3s ease;
-    }
-    .juice-link:hover {
-      color: var(--charcoal-fg);
-      border-bottom-color: var(--charcoal-fg);
-    }
-    .editorials {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 60px;
-    }
-    .editorial-label {
-      font-size: 0.8rem;
-      font-weight: 600;
-      text-transform: uppercase;
-      letter-spacing: 0.15em;
-      color: var(--gold-accent);
-      margin-bottom: 40px;
-    }
-    .editorial-flow {
-      display: flex;
-      flex-direction: column;
-      gap: 40px;
-    }
-    .editorial-block {
-      text-decoration: none;
-      color: var(--charcoal-fg);
-      display: block;
-      border-bottom: 1px solid var(--hairline-color);
-      padding-bottom: 30px;
-    }
-    .editorial-block:hover h3 { color: var(--gold-accent); }
-    .editorial-block h3 {
-      font-family: var(--serif-font);
-      font-size: 1.4rem;
-      font-weight: 700;
-      margin-bottom: 12px;
-      transition: color 0.3s ease;
-    }
-    .editorial-block p {
-      font-size: 0.95rem;
-      color: #555555;
-      font-weight: 300;
-    }
-    footer {
-      border-top: 1px solid var(--hairline-color);
-      padding-top: 40px;
-      display: flex;
-      justify-content: space-between;
-      font-size: 0.75rem;
-      letter-spacing: 0.1em;
-      color: #888888;
-    }
-    footer a { color: #888888; text-decoration: none; }
-    footer a:hover { color: var(--gold-accent); }
-    @media(max-width: 768px) {
-      header { flex-direction: column; gap: 16px; }
-      h1 { font-size: 2rem; }
-      .story-body { font-size: 1.05rem; }
-    }
-  </style>
+    </script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background: #1a1a1a;
+            color: #e5e5e5;
+            font-family: "Courier New", Courier, monospace, "Impact", fantasy;
+            font-size: 16px;
+            line-height: 1.4;
+            overflow-x: hidden;
+        }
+
+        /* RAW CONCRETE TEXTURE */
+        body::before {
+            content: '';
+            position: fixed;
+            top: 0; left: 0; width: 100vw; height: 100vh;
+            background:
+                repeating-linear-gradient(45deg, rgba(255,255,255,0.02) 0px, rgba(255,255,255,0.02) 2px, transparent 2px, transparent 4px),
+                repeating-linear-gradient(-45deg, rgba(0,0,0,0.1) 0px, rgba(0,0,0,0.1) 1px, transparent 1px, transparent 3px);
+            pointer-events: none;
+            z-index: 9999;
+        }
+
+        a {
+            color: #ff6b35;
+            text-decoration: none;
+            border-bottom: 3px solid #ff6b35;
+        }
+
+        a:hover {
+            background: #ff6b35;
+            color: #1a1a1a;
+        }
+
+        /* TYPOGRAPHY - BOLD RAW */
+        h1, h2, h3 {
+            font-family: "Impact", "Arial Black", sans-serif;
+            font-weight: 900;
+            text-transform: uppercase;
+            letter-spacing: -0.03em;
+        }
+
+        h1 {
+            font-size: clamp(3.5rem, 15vw, 7rem);
+            line-height: 0.85;
+            color: #ff6b35;
+            text-shadow: 6px 6px 0 #000;
+        }
+
+        h2 {
+            font-size: clamp(2.5rem, 8vw, 4.5rem);
+            border-left: 8px solid #ff6b35;
+            padding-left: 16px;
+            margin-bottom: 32px;
+        }
+
+        h3 {
+            font-size: 2rem;
+            margin-bottom: 16px;
+        }
+
+        p {
+            margin-bottom: 16px;
+            font-size: 1.1rem;
+        }
+
+        /* LAYOUT */
+        header {
+            padding: 48px 48px 24px;
+            border-bottom: 4px solid #ff6b35;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            gap: 16px;
+            position: relative;
+            transform: rotate(-0.5deg);
+            margin-bottom: 8px;
+        }
+
+        .logo {
+            font-size: 2.5rem;
+            font-family: "Impact", sans-serif;
+            color: #e5e5e5;
+            border: 4px solid #e5e5e5;
+            padding: 8px 16px;
+            display: inline-block;
+            transform: rotate(1deg);
+            background: #1a1a1a;
+        }
+
+        .logo span {
+            color: #ff6b35;
+        }
+
+        /* NAV */
+        nav {
+            display: flex;
+            gap: 24px;
+            align-items: center;
+        }
+
+        nav a {
+            font-family: "Impact", sans-serif;
+            font-size: 1.3rem;
+            text-transform: uppercase;
+            border: 3px solid #e5e5e5;
+            padding: 8px 16px;
+            background: #1a1a1a;
+            color: #e5e5e5;
+            transition: 0.1s;
+        }
+
+        nav a:hover {
+            background: #ff6b35;
+            border-color: #ff6b35;
+            color: #1a1a1a;
+        }
+
+        .hamburger {
+            display: none;
+            flex-direction: column;
+            gap: 6px;
+            cursor: pointer;
+            border: 3px solid #e5e5e5;
+            padding: 10px 12px;
+            background: #1a1a1a;
+        }
+
+        .hamburger div {
+            width: 30px;
+            height: 4px;
+            background: #e5e5e5;
+        }
+
+        #nav-toggle {
+            display: none;
+        }
+
+        #nav-toggle:checked ~ nav {
+            display: flex;
+            flex-direction: column;
+            position: absolute;
+            top: 100%;
+            left: 0;
+            width: 100%;
+            background: #1a1a1a;
+            border: 4px solid #ff6b35;
+            padding: 24px;
+            z-index: 100;
+        }
+
+        /* MAIN */
+        main {
+            padding: 0 48px;
+        }
+
+        section {
+            margin-bottom: 80px;
+            position: relative;
+        }
+
+        /* HERO */
+        .hero {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 32px;
+            padding: 48px 0;
+            border-bottom: 4px solid #ff6b35;
+            margin-bottom: 80px;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero::before {
+            content: '';
+            position: absolute;
+            top: -20px;
+            left: -20px;
+            font-size: 4rem;
+            transform: rotate(-15deg);
+            opacity: 0.3;
+        }
+
+        .hero-visual {
+            background: linear-gradient(135deg, #1a1a1a 0%, #2a2a2a 30%, #ff6b35 70%, #1a1a1a 100%);
+            border: 6px solid #ff6b35;
+            padding: 80px 40px;
+            text-align: center;
+            transform: rotate(1.5deg);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .hero-visual::after {
+            content: '☠️ CLUB ☠️';
+            font-size: 4rem;
+            font-family: "Impact", sans-serif;
+            color: rgba(255,255,255,0.1);
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%) rotate(-10deg);
+            white-space: nowrap;
+            letter-spacing: 20px;
+        }
+
+        .hero-visual .emoji-big {
+            font-size: 8rem;
+            display: block;
+            margin-bottom: 16px;
+        }
+
+        .hero-text {
+            padding: 24px;
+            border: 4px solid #e5e5e5;
+            background: rgba(0,0,0,0.7);
+        }
+
+        .hero-text p {
+            font-size: 1.4rem;
+            font-weight: bold;
+        }
+
+        .cta-button {
+            display: inline-block;
+            background: #ff6b35;
+            color: #1a1a1a;
+            font-family: "Impact", sans-serif;
+            font-size: 2rem;
+            padding: 16px 40px;
+            border: 4px solid #e5e5e5;
+            text-transform: uppercase;
+            margin-top: 24px;
+            transform: rotate(-2deg);
+            transition: 0.1s;
+        }
+
+        .cta-button:hover {
+            background: #1a1a1a;
+            color: #ff6b35;
+            border-color: #ff6b35;
+            transform: rotate(0deg);
+        }
+
+        /* REVIEW CARDS */
+        .review-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 32px;
+        }
+
+        .review-card {
+            background: #222;
+            border: 4px solid #e5e5e5;
+            padding: 32px;
+            position: relative;
+            transform: rotate(var(--rot, 0deg));
+            transition: 0.1s;
+        }
+
+        .review-card:nth-child(odd) {
+            --rot: -1deg;
+        }
+
+        .review-card:nth-child(even) {
+            --rot: 1.5deg;
+        }
+
+        .review-card:hover {
+            transform: rotate(0deg) scale(1.02);
+            border-color: #ff6b35;
+        }
+
+        .review-card .stars {
+            font-size: 2rem;
+            color: #ff6b35;
+            letter-spacing: 4px;
+        }
+
+        .review-card .author {
+            font-family: "Impact", sans-serif;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            margin: 8px 0;
+            color: #ff6b35;
+        }
+
+        .review-card .date {
+            font-size: 0.9rem;
+            opacity: 0.6;
+            border-top: 2px dashed #ff6b35;
+            padding-top: 8px;
+            margin-top: 8px;
+        }
+
+        .review-card blockquote {
+            font-style: italic;
+            border-left: 6px solid #ff6b35;
+            padding-left: 16px;
+            margin: 16px 0;
+            font-size: 1.1rem;
+        }
+
+        /* FEATURES / ABOUT */
+        .features {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 32px;
+            border-top: 4px solid #ff6b35;
+            padding-top: 48px;
+        }
+
+        .feature-item {
+            border: 3px solid #e5e5e5;
+            padding: 32px 24px;
+            background: rgba(0,0,0,0.3);
+            transform: skewX(-2deg);
+        }
+
+        .feature-item h3 {
+            transform: skewX(2deg);
+        }
+
+        .feature-item p {
+            transform: skewX(2deg);
+        }
+
+        /* CONTACT */
+        .contact-block {
+            background: #111;
+            border: 6px solid #ff6b35;
+            padding: 48px;
+            text-align: center;
+            transform: rotate(-0.5deg);
+            margin-top: 80px;
+        }
+
+        .contact-block a[href^="tel"] {
+            font-size: 3rem;
+            font-family: "Impact", sans-serif;
+            border: none;
+            background: #ff6b35;
+            color: #1a1a1a;
+            padding: 16px 48px;
+            display: inline-block;
+            margin-top: 16px;
+        }
+
+        /* FOOTER */
+        footer {
+            border-top: 4px solid #ff6b35;
+            padding: 48px;
+            margin-top: 80px;
+            display: flex;
+            justify-content: space-between;
+            flex-wrap: wrap;
+            gap: 16px;
+            font-size: 0.9rem;
+            opacity: 0.8;
+        }
+
+        footer a {
+            border-bottom: 2px solid #ff6b35;
+        }
+
+        /* RESPONSIVE */
+        @media (max-width: 768px) {
+            header {
+                padding: 24px 16px;
+            }
+
+            nav {
+                display: none;
+                gap: 12px;
+            }
+
+            .hamburger {
+                display: flex;
+            }
+
+            #nav-toggle:checked ~ nav {
+                display: flex;
+                gap: 12px;
+            }
+
+            main {
+                padding: 0 16px;
+            }
+
+            .hero {
+                grid-template-columns: 1fr;
+                gap: 24px;
+                padding: 24px 0;
+            }
+
+            .hero-visual {
+                padding: 48px 24px;
+            }
+
+            .hero-visual .emoji-big {
+                font-size: 4rem;
+            }
+
+            h1 {
+                font-size: 2.8rem;
+            }
+
+            h2 {
+                font-size: 2rem;
+            }
+
+            .contact-block a[href^="tel"] {
+                font-size: 2rem;
+                padding: 12px 24px;
+            }
+
+            section {
+                margin-bottom: 48px;
+            }
+
+            .review-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .features {
+                grid-template-columns: 1fr;
+            }
+
+            footer {
+                flex-direction: column;
+                text-align: center;
+                padding: 24px;
+            }
+        }
+
+        /* UTILITY */
+        .text-accent {
+            color: #ff6b35;
+        }
+
+        .border-accent {
+            border-color: #ff6b35 !important;
+        }
+
+        .skew {
+            transform: skewX(-3deg);
+        }
+
+        .skew-fix {
+            transform: skewX(3deg);
+        }
+
+        .full-bleed {
+            width: 100vw;
+            margin-left: calc(-50vw + 50%);
+        }
+
+        hr {
+            border: none;
+            border-top: 4px solid #ff6b35;
+            margin: 48px 0;
+        }
+    </style>
+<link rel="icon" type="image/svg+xml" href="favicon.svg">
 </head>
 <body>
-  <div class="container">
     <header>
-      <a href="/" class="brand">EDITORIAL.KR</a>
-      <nav><a href="index.html">HOME</a> | <a href="sitemap.xml">SITEMAP</a></nav>
+        <div class="logo"><span>RAW</span> CONCRETE</div>
+        <input type="checkbox" id="nav-toggle" hidden>
+        <label for="nav-toggle" class="hamburger" aria-label="메뉴 열기">
+            <div></div><div></div><div></div>
+        </label>
+        <nav>
+            <a href="#">HOME</a>
+            <a href="#">CLUB</a>
+            <a href="#">REVIEW</a>
+            <a href="#">CONTACT</a>
+        </nav>
     </header>
+
     <main>
-      <div class="kicker">BOUTIQUE KR / SELECTION ACCENT</div>
-      <h1>인프라 테크 지식 저널 및 아카이브</h1>
-      <div class="story-body">
-        환영합니다. 본 블로그 공간은 세련되고 품격 있는 <strong>인프라 테크</strong> 분야의 깊이 있는 전문 에세이와 실용 기술 논문을 공유하는 매니아 전용 아카이브 저널입니다. 아래의 최근 기사 목록을 통해 새로운 지식의 지평을 넓혀 보시기 바랍니다.
-      </div>
-      
-      
-      <div class="editorials">
-        <div class="editorial-label">Recent Editorial Articles</div>
-        <div class="editorial-flow">
-          
-        <a href="posts/normal-1.html" class="editorial-block">
-          <h3>메일 인프라 신뢰 확보를 위한 DMARC(Domain-based Message Authentication) 거부 정책 설정 시기</h3>
-          <p>새로 웜업을 진행하는 도메인의 수신율과 보안 도달 평판을 극대화하기 위해, SPF와 DKIM 인증 결과 기반의 DMARC 규약을 초기 단순 모니터링 수준에서 메일 수신 서버들이 미...</p>
-        </a>
-      
+        <!-- HERO -->
+        <section class="hero">
 
-        <a href="posts/normal-2.html" class="editorial-block">
-          <h3>리눅스 클라우드 VPS(가상 서버) systemd-journald 메모리 힙 누수 및 로그 디스크 포화 제어 기법</h3>
-          <p>한정된 자원으로 초경량 고성능 웹 서버를 운영할 때, 실시간 커널 로그가 무제한 적재되어 디스크 공간 부족으로 전체 프로세스가 락되는 파멸적 재앙을 미연에 방지하기 위해 `/etc...</p>
-        </a>
-      
-
-        <a href="posts/normal-3.html" class="editorial-block">
-          <h3>TCP 윈도우 스케일링(Window Scaling) 활성화 시 노후화된 게이트웨이 장비의 패킷 드롭 원인 추적</h3>
-          <p>원거리 대용량 데이터 전송 성능을 극대화하는 TCP 윈도우 스케일 팩터 옵션을 커널 수준에서 적용했을 때, 도중에 위치한 오래된 하드웨어 방화벽들이 이를 비정상 버스트 트래픽으로 ...</p>
-        </a>
-      
-
-        <a href="posts/juice-1.html" class="editorial-block">
-          <h3>네트워크 인프라 엔지니어를 위한 SEO 오토파일럿 가격 트러블슈팅 기술 리포트</h3>
-          <p>표준 네트워크 통신 규약의 미세 튜닝과 메모리 힙 리소스를 정밀 제어하며 대량 서버 도달 평판의 균형점을 맞추어나가는 지적인 인프라 전문가분들이라면, 머리 아픈 커널 최적화 점검을...</p>
-        </a>
-      
-
-        <a href="posts/juice-2.html" class="editorial-block">
-          <h3>네트워크 인프라 엔지니어를 위한 SEO 오토파일럿 가격 트러블슈팅 기술 리포트</h3>
-          <p>표준 네트워크 통신 규약의 미세 튜닝과 메모리 힙 리소스를 정밀 제어하며 대량 서버 도달 평판의 균형점을 맞추어나가는 지적인 인프라 전문가분들이라면, 머리 아픈 커널 최적화 점검을...</p>
-        </a>
-      
-        </div>
-      </div>
-    </main>
-    <footer>
-      <div>&copy; 2026 EDITORIAL.KR. ALL RIGHTS RESERVED.</div>
-      <div>
-        <a href="sitemap.xml">SITEMAP</a> | 
-        <a href="#">PRIVACY</a> | 
-        <a href="#">DISCLAIMER</a>
-      </div>
-    </footer>
+<!-- SEO Visual 1: 망원 클럽 추천 Brutalist Avant-Garde Hero -->
+<div class="seo-visual-hero" role="img" aria-label="강서 클럽 정보 — 망원 망원 클럽 추천" 
+     style="width:100%;padding:120px 0 60px 0;background:#ffffff;text-align:left;margin:0;position:relative">
+  <div style="max-width:1100px;margin:0 auto;padding:0 24px">
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.4em;color:#000000;margin-bottom:24px;text-transform:uppercase">/ PERSPECTIVE DECONSTRUCTED</div>
+    <div style="font-size:7.5vw;line-height:0.95;font-weight:900;font-family:serif;color:#000000;letter-spacing:-0.05em;margin:0 0 32px 0;text-transform:uppercase">망원 클럽 추천</div>
+    <p style="font-size:1.1rem;line-height:1.7;color:#000000;max-width:550px;font-weight:300;margin:0">강서 클럽 정보</p>
   </div>
+  <script type="application/ld+json">{"@context":"https://schema.org","@type":"ImageObject","name":"망원 클럽 추천","description":"강서 클럽 정보","contentUrl":"data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22/>"}</script>
+</div>
+            <div class="hero-visual">
+                <span class="emoji-big"></span>
+                <div style="font-size:2rem; font-family:Impact; color:#fff; text-shadow:4px 4px 0 #000;">MANGWON</div>
+                <div style="font-size:1.5rem; color:#ff6b35;">UNDERGROUND</div>
+            </div>
+            <div class="hero-text">
+                <h1>망원 클럽<br>추천?<br>여기다.</h1>
+                <p>씨발, 망원동 클럽 리스트는 이미 알겠지. 근데 진짜 핫한 곳은 여기야. 꼰대들이 만든 가이드 버려. 우리는 거리에서 직접 뛰는 bro들의 리얼 리뷰만 싣는다. 망원 클럽, 너가 몰랐던 씨발 같은 밤이 기다린다.</p>
+                <a href="tel:010-6279-0862" class="cta-button"> 지금 전화해</a>
+            </div>
+        </section>
+
+<!-- SEO Visual 2: 클럽 Brutalist Typography Cards -->
+<div class="seo-visual-cards" role="img" aria-label="망원 클럽 추천 클럽 — 강서 클럽 정보" 
+     style="display:flex;flex-direction:column;gap:80px;margin:120px auto;max-width:1100px;padding:0 24px">
+  <div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">01</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">특화</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">망원 클럽 추천</div>
+  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">02</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">다수 실적</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">망원 클럽 추천</div>
+  </div><div style="display:flex;flex-direction:column;align-items:flex-start;background:transparent;padding:0;border:none;box-shadow:none">
+    <div style="font-family:serif;font-weight:900;font-size:3.5rem;color:#000000;line-height:1;margin-bottom:12px;letter-spacing:-0.03em">03</div>
+    <div style="font-weight:800;font-size:1.6rem;color:#000000;letter-spacing:-0.02em;margin-bottom:8px">고품질</div>
+    <div style="font-family:monospace;font-size:0.75rem;letter-spacing:0.2em;color:#666666;text-transform:uppercase">망원 클럽 추천</div>
+  </div>
+</div>
+
+        <!-- UGC REVIEWS -->
+        <section>
+            <h2> 리얼 리뷰 </h2>
+            <p style="margin-bottom:32px; font-size:1.3rem; border-bottom:2px dashed #ff6b35; padding-bottom:16px;">가짜 후기는 없다. 망원 클럽에서 직접 뻗은 bro들의 생생한 증언.</p>
+            <div class="review-grid">
+                <article class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <div class="author">더러운개새끼</div>
+                    <time class="date" datetime="2024-12-10">2024.12.10</time>
+                    <blockquote>"여기 클럽 미쳤다. 디제이가 선곡 개쩔고 분위기 씨발 개좋음. 망원에서 이렇게 뻗어본 적 처음이다."</blockquote>
+                </article>
+                <article class="review-card">
+                    <div class="stars">★★★★☆</div>
+                    <div class="author">밤새는bro</div>
+                    <time class="date" datetime="2024-11-28">2024.11.28</time>
+                    <blockquote>"주말에 갔는데 사람 많아서 좀 빡셌지만 음악은 진짜. 망원 클럽 추천 리스트에 넣어야 됨."</blockquote>
+                </article>
+                <article class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <div class="author">술처먹는호랑이</div>
+                    <time class="date" datetime="2024-11-15">2024.11.15</time>
+                    <blockquote>"와 씨 여기 처음 왔는데 완전 내 스타일. 인테리어도 좆나게 하드코어하고 사람들도 다 비슷한 vibe. 또 올 듯."</blockquote>
+                </article>
+                <article class="review-card">
+                    <div class="stars">★★★★★</div>
+                    <div class="author">클럽죽돌이</div>
+                    <time class="date" datetime="2024-10-30">2024.10.30</time>
+                    <blockquote>"망원 클럽 중에서 제일 거친 분위기. 근데 그게 매력이다. 꼰대들 싫어하는 새끼들은 여기로 와."</blockquote>
+                </article>
+                <article class="review-card">
+                    <div class="stars">★★★★☆</div>
+                    <div class="author">디제이충</div>
+                    <time class="date" datetime="2024-10-05">2024.10.05</time>
+                    <blockquote>"사운드 시스템 개좋음. 디제이 부스도 잘 보이고. 망원동 클럽 중에서 여기가 제일 리얼함."</blockquote>
+                </article>
+            </div>
+        </section>
+
+        <!-- FEATURES / ABOUT -->
+        <section>
+            <h2>⚡ 망원 클럽의 법칙 ⚡</h2>
+            <div class="features">
+                <div class="feature-item">
+                    <h3> 음악은 하드코어</h3>
+                    <p>케이팝? 여기선 안 통한다. 테크노, 하우스, 브레이크비트. 디제이들은 선곡에 미친 새끼들이다. 망원 클럽의 베이스는 너의 심장을 때린다.</p>
+                </div>
+                <div class="feature-item">
+                    <h3> 인테리어는 거침없이</h3>
+                    <p>반짝이는 조명? No. 철근, 콘크리트, 낙서. 브루탈리즘 그 자체. 벽에 기
+
+
+
+<!-- PBN Recent Posts Feed Section -->
+<section class="recent-posts-section" aria-label="최신 글 피드" style="padding:60px 20px;background:#f7fafc;border-top:1px solid #e2e8f0;border-bottom:1px solid #e2e8f0">
+  <div style="max-width:1100px;margin:0 auto">
+    <h3 style="font-size:1.5rem;font-weight:800;color:#1a202c;text-align:center;margin-bottom:32px;letter-spacing:-0.025em"> 최신 관련 포스트</h3>
+    <div style="display:grid;grid-template-columns:repeat(auto-fit,minmax(300px,1fr));gap:24px">
+      
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-15">2026-06-15</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">망원 클럽 추천을 넘어, 1972 년 기록의 3 개 숨은 문서를 분석했다</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">세 개의 파일이 바닥에 떨어져 있었어. 그날 회의실 창문 밖에는 비가 내렸고, 나는 그걸 발견한 손으로 커피를 더 뜨겁게 만들었지. 사람들은 보통 1972 년 청문회 기록을 단순하게 넘기지만, 실제로는 훨씬 더 많은 페이지가 숨어있었다. 특히 우리가 관심 있게 본 세 </p>
+      </div>
+      <a href="posts/interview-001-1t47p0n.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">네트워크 인프라 엔지니어를 위한 SEO 오토파일럿 가격 트러블슈팅 기술 리포트</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/juice-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">네트워크 인프라 엔지니어를 위한 SEO 오토파일럿 가격 트러블슈팅 기술 리포트</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/juice-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">메일 인프라 신뢰 확보를 위한 DMARC(Domain-based Message Authentication) 거부 정책 설정 시기</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-1.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">리눅스 클라우드 VPS(가상 서버) systemd-journald 메모리 힙 누수 및 로그 디스크 포화 제어 기법</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-2.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-05-24">2026-05-24</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">TCP 윈도우 스케일링(Window Scaling) 활성화 시 노후화된 게이트웨이 장비의 패킷 드롭 원인 추적</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis"></p>
+      </div>
+      <a href="posts/normal-3.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    <article class="recent-post-card" style="background:#ffffff;border-radius:16px;padding:24px;box-shadow:0 4px 20px rgba(0,0,0,0.04);border:1px solid #edf2f7;transition:transform 0.3s ease,box-shadow 0.3s ease;display:flex;flex-direction:column;justify-content:space-between;min-height:220px" onmouseover="this.style.transform='translateY(-5px)';this.style.boxShadow='0 12px 24px rgba(0,0,0,0.08)'" onmouseout="this.style.transform='none';this.style.boxShadow='0 4px 20px rgba(0,0,0,0.04)'">
+      <div>
+        <div style="display:flex;justify-content:space-between;align-items:center;margin-bottom:12px;font-size:0.8rem;color:#718096">
+          <span>⭐ REVIEW</span>
+          <time datetime="2026-06-15">2026-06-15</time>
+        </div>
+        <h4 style="font-size:1.1rem;font-weight:700;color:#1a202c;margin-bottom:8px;line-height:1.4">데모 버전에 숨겨진 길, 망원 클럽 추천에서 찾는 숨은 루트</h4>
+        <p style="font-size:0.875rem;color:#4a5568;line-height:1.6;margin-bottom:16px;display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden;text-overflow:ellipsis">## 파일에서 본 미완료 맵과 선택의 과정 데모 버전의 아처스 윙이나 블랙 킹의 위치가 실제로 어떻게 다른지 궁금하다면, 오늘 이 글을 읽어보라. 저녁 10 시, 에뮬레이터 화면을 보며 느낀 건데, 파일 구조 자체가 다르고 맵 데이터도 조금씩 달라 보여. 마치 망원 클</p>
+      </div>
+      <a href="posts/t3link-002-giypr6.html" style="align-self:flex-start;text-decoration:none;color:#3182ce;font-size:0.9rem;font-weight:600;transition:color 0.2s" onmouseover="this.style.color='#2b6cb0'" onmouseout="this.style.color='#3182ce'">자세히 보기 →</a>
+    </article>
+    </div>
+  </div>
+
+<div class="seo-visual-divider" role="separator" aria-label="망원 클럽 추천 구분선" style="margin:80px 0;height:1px;background:#666666;opacity:0.1"></div>
+</section>
 </body>
 </html>
